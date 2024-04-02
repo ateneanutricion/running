@@ -4,13 +4,13 @@ const MINUTE = SECOND * 60
 const HOUR = MINUTE * 60
 const DAY = HOUR * 24
 
-const countDownDate = ref(1719622800000 /* 28 JUN 2024 19:00:00*/)
+const countDownDate = ref(1719622800000 /* 28 JUN 2024 19:00:00 */)
 const now = useNow()
 const timeleft = computed(() => countDownDate.value - now.value.getTime())
-const days = computed(() => Math.floor(timeleft.value / DAY).toString().padStart(2,'0'))
-const hours = computed(() => Math.floor((timeleft.value % DAY) / HOUR).toString().padStart(2,'0'))
-const minutes = computed(() => Math.floor((timeleft.value % HOUR) / MINUTE).toString().padStart(2,'0'))
-const seconds = computed(() => Math.floor((timeleft.value % MINUTE) / SECOND).toString().padStart(2,'0'))
+const days = computed(() => Math.floor(timeleft.value / DAY).toString().padStart(2, '0'))
+const hours = computed(() => Math.floor((timeleft.value % DAY) / HOUR).toString().padStart(2, '0'))
+const minutes = computed(() => Math.floor((timeleft.value % HOUR) / MINUTE).toString().padStart(2, '0'))
+const seconds = computed(() => Math.floor((timeleft.value % MINUTE) / SECOND).toString().padStart(2, '0'))
 </script>
 
 <template>
@@ -37,4 +37,4 @@ const seconds = computed(() => Math.floor((timeleft.value % MINUTE) / SECOND).to
       </div>
     </div>
   </div>
- </template>
+</template>
