@@ -4,7 +4,7 @@
       <nav class="w-full h-full relative">
         <ul class="h-full flex px-8 justify-between items-center font-extralight font-stretch-semi-expanded">
           <li>
-            <UnoIcon class="i-heroicons:queue-list-16-solid" />
+            <!-- <UnoIcon class="i-heroicons:queue-list-16-solid" /> -->
           </li>
 
         <!-- <li>MENÚ</li> -->
@@ -16,42 +16,25 @@
             <Logo class="absolute inset-0" />
           </div>
         </div>
-
-        <Teleport to="#teleports">
-          <div class="hidden absolute inset-0 w-full h-dvh bg-zinc-900 py-8">
-            <ul class="h-full flex flex-col gap-8 items-center font-extralight font-stretch-semi-expanded">
-              <div class="relative h-24 w-24 block">
-                <Logo class="blur-xl md:blur-md text-lime" />
-                <Logo class="absolute inset-0" />
-              </div>
-
-              <li class="">
-                EL EVENTO
-              </li>
-              <li class="">
-                REGISTRO
-              </li>
-              <li class="">
-                TU NÚMERO
-              </li>
-              <li class="text-neutral flex flex-col">
-                <span>RESULTADOS</span>
-                <span class="text-xs">proximamente</span>
-              </li>
-            </ul>
-          </div>
-        </Teleport>
       </nav>
     </header>
 
     <main class="py-18 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
-      <h1 class="flex items-center justify-center text-xl">
-        <span class="font-stretch-semi-expanded">ATENEA&nbsp;</span>
-        <span class="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">
-          5K
-        </span>
-        <span class="font-stretch-semi-expanded">JUNIO 28</span>
-      </h1>
+      <section class="flex flex-col items-center">
+        <h1 class="text-2xl font-semibold font-stretch-extra-condensed text-center">
+          CARRERA
+          ATLÉTICA
+          <br>
+          <span class="text-6xl font-black">
+            ATENEA
+            <span class="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">5K</span>
+          </span>
+        </h1>
+
+        <p class="text-xs font-stretch-extra-expanded font-extralight">
+          Fortaleza es movimiento.
+        </p>
+      </section>
 
       <section class="flex flex-col md:flex-row items-center justify-center gap-8">
         <div class="rounded-lg overflow-hidden h-60 w-full relative">
