@@ -209,25 +209,19 @@
           <NuxtLink
             external
             target="_blank"
-            href="https://drinkprime.com/"
-            class="bg-zinc-800 rounded-lg p-4 md:p-12"
+            href=""
+            class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
-            <img
-              src="/patrocinadores/natura.png"
-              class="h-24 w-auto object-contain"
-            >
+            <UnoIcon class="i-sponsors:natura h-20 w-20" />
           </NuxtLink>
 
           <NuxtLink
             external
             target="_blank"
             href="https://www.facebook.com/LaEnvidiaSTORE/"
-            class="bg-zinc-800 rounded-lg p-4 md:p-12"
+            class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
-            <img
-              src="/patrocinadores/envidia-store.png"
-              class="h-24 w-auto object-contain"
-            >
+            <UnoIcon class="i-sponsors:envidia-store h-20 w-20" />
           </NuxtLink>
         </div>
       </section>
