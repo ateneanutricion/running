@@ -26,9 +26,11 @@ useServerSeoMeta({
 
     <main class="pt-4 pb-16 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
       <section class="flex flex-col items-center">
-        <h1 class="text-2xl md:text-3xl font-semibold font-stretch-extra-condensed text-center">
-          CARRERA
-          ATLÉTICA
+        <h1 class="font-stretch-extra-condensed text-center">
+          <span class="font-serif text-2xl md:text-3xl">
+            CARRERA
+            ATLÉTICA
+          </span>
           <br>
           <span class="text-6xl md:text-7xl lg:text-8xl font-black">
             ATENEA
@@ -189,7 +191,7 @@ useServerSeoMeta({
             PATROCINADORES
           </h3>
           <p class="font-extralight">
-            La carrea puede llevarse a cabo gracias a la colaboración de...
+            La carrera puede llevarse a cabo gracias a la colaboración de...
           </p>
         </div>
 
@@ -200,7 +202,7 @@ useServerSeoMeta({
             href=""
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
-            <UnoIcon class="i-sponsors:natura h-20 w-20 md:h-30 md:w-30" />
+            <UnoIcon class="i-sponsors:natura h-20 w-20 md:h-22 md:w-22 lg:h-30 lg:w-30" />
           </NuxtLink>
 
           <NuxtLink
@@ -209,7 +211,7 @@ useServerSeoMeta({
             href="https://www.facebook.com/LaEnvidiaSTORE/"
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
-            <UnoIcon class="i-sponsors:envidia-store h-20 w-20 md:h-30 md:w-30" />
+            <UnoIcon class="i-sponsors:envidia-store h-20 w-20 md:h-22 md:w-22 lg:h-30 lg:w-30" />
           </NuxtLink>
 
           <NuxtLink
@@ -220,7 +222,7 @@ useServerSeoMeta({
             <img
               src="/sponsors/totopos-chilaquil-tostadas-de-la-cruz.webp"
               alt="TOTOPOS CHILAQUIL Y TOSTADAS DE LA CRUZ"
-              class="w-20 md:w-30"
+              class="w-20 md:w-22 lg:w-30"
             >
           </NuxtLink>
         </div>
