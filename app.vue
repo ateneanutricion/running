@@ -1,3 +1,19 @@
+<script lang="ts" setup>
+useServerSeoMeta({
+  title: 'ATENEA 5K | CARRERA ATLÉTICA',
+  ogTitle: 'ATENEA 5K | CARRERA ATLÉTICA',
+  ogType: 'website',
+  ogUrl: 'https://5k.ateneanutricion.com',
+
+  // description: 'Atenea Nutrición brinda servicios de bienestar y salud, somos expertos en nutrición deportiva & clínica, creamos planes de alimentación individualizados, entrenamientos personalizados & test epigenéticos para una nutrición óptima. Nos encontramos en San Luis Potosí SLP. y Matehuala S.L.P',
+  // ogDescription: 'Atenea Nutrición brinda servicios de bienestar y salud, somos expertos en nutrición deportiva & clínica, creamos planes de alimentación individualizados, entrenamientos personalizados & test epigenéticos para una nutrición óptima. Nos encontramos en San Luis Potosí SLP. y Matehuala S.L.P',
+
+  ogImage: 'https://5k.ateneanutricion.com/og-images/index.png',
+  twitterCard: 'summary_large_image',
+  twitterImage: 'https://5k.ateneanutricion.com/og-images/index.png',
+})
+</script>
+
 <template>
   <div class="bg-zinc-900 select-none">
     <header class="h-16">
@@ -11,13 +27,14 @@
         </ul>
 
         <div class="flex justify-center">
-          <div class="relative h-24 w-24 block -mt-10">
+          <div class="relative h-24 w-24 -mt-10">
             <Logo class="blur-xl md:blur-md text-lime" />
             <Logo class="absolute inset-0" />
           </div>
         </div>
       </nav>
     </header>
+    <!-- <OgImage /> -->
 
     <main class="py-18 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
       <section class="flex flex-col items-center">
@@ -195,7 +212,7 @@
             href=""
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
-            <UnoIcon class="i-sponsors:natura h-20 w-20" />
+            <UnoIcon class="i-sponsors:natura h-20 w-20 md:h-30 md:w-30" />
           </NuxtLink>
 
           <NuxtLink
@@ -204,7 +221,19 @@
             href="https://www.facebook.com/LaEnvidiaSTORE/"
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
-            <UnoIcon class="i-sponsors:envidia-store h-20 w-20" />
+            <UnoIcon class="i-sponsors:envidia-store h-20 w-20 md:h-30 md:w-30" />
+          </NuxtLink>
+
+          <NuxtLink
+            external
+            href="tel:+524888822068"
+            class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
+          >
+            <img
+              src="/sponsors/totopos-chilaquil-tostadas-de-la-cruz.webp"
+              alt="TOTOPOS CHILAQUIL Y TOSTADAS DE LA CRUZ"
+              class="w-20 md:w-30"
+            >
           </NuxtLink>
         </div>
       </section>
