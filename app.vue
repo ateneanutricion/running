@@ -46,7 +46,7 @@ useServerSeoMeta({
       <section class="flex flex-col md:flex-row items-center justify-center gap-8">
         <div class="rounded-lg overflow-hidden h-60 w-full relative">
           <img
-            src="/athlete-prepared-run-athletics-track.jpg"
+            src="/header_card.webp"
             class="object-cover h-full w-full"
           >
           <div class="absolute inset-0 p-2 flex flex-col">
