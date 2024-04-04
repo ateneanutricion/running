@@ -16,39 +16,27 @@ useServerSeoMeta({
 
 <template>
   <div class="bg-zinc-900 select-none">
-    <header class="h-16">
-      <nav class="w-full h-full relative">
-        <ul class="h-full flex px-8 justify-between items-center font-extralight font-stretch-semi-expanded">
-          <li>
-            <!-- <UnoIcon class="i-heroicons:queue-list-16-solid" /> -->
-          </li>
-
-        <!-- <li>MENÚ</li> -->
-        </ul>
-
-        <div class="flex justify-center">
-          <div class="relative h-24 w-24 -mt-10">
-            <Logo class="blur-xl md:blur-md text-lime" />
-            <Logo class="absolute inset-0" />
-          </div>
-        </div>
-      </nav>
-    </header>
     <!-- <OgImage /> -->
+    <header class="flex justify-center pt-10">
+      <div class="relative h-24 w-24 md:h-30 md:w-30 lg:h-32 lg:w-32">
+        <Logo class="blur-xl md:blur-md text-lime" />
+        <Logo class="absolute inset-0" />
+      </div>
+    </header>
 
-    <main class="py-18 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
+    <main class="pt-4 pb-16 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
       <section class="flex flex-col items-center">
-        <h1 class="text-2xl font-semibold font-stretch-extra-condensed text-center">
+        <h1 class="text-2xl md:text-3xl font-semibold font-stretch-extra-condensed text-center">
           CARRERA
           ATLÉTICA
           <br>
-          <span class="text-6xl font-black">
+          <span class="text-6xl md:text-7xl lg:text-8xl font-black">
             ATENEA
-            <span class="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">5K</span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">5K</span>
           </span>
         </h1>
 
-        <p class="text-xs font-stretch-extra-expanded font-extralight">
+        <p class="text-xs md:text-base font-stretch-extra-expanded font-extralight">
           Fortaleza es movimiento.
         </p>
       </section>
