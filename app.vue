@@ -104,7 +104,7 @@ useServerSeoMeta({
 
       <section class="space-y-6">
         <h2 class="flex flex-col items-center justify-center text-xl">
-          <span class="font-stretch-semi-expanded font-extralight">¿Estás listo?</span>
+          <span class="font-serif">¿Estás listo?</span>
           <span class="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">
             ¡CORRE!
           </span>
@@ -191,7 +191,7 @@ useServerSeoMeta({
             PATROCINADORES
           </h3>
           <p class="font-extralight">
-            La carrera puede llevarse a cabo gracias a la colaboración de...
+            <span class="font-bold">ATENEA 5K</span> puede llevarse a cabo gracias a la colaboración de...
           </p>
         </div>
 
