@@ -1,4 +1,4 @@
-import { defineConfig, presetIcons, presetUno } from 'unocss'
+import { defineConfig, presetIcons, presetUno, presetWebFonts } from 'unocss'
 import { FileSystemIconLoader } from '@iconify/utils/lib/loader/node-loaders'
 
 export default defineConfig({
@@ -7,6 +7,12 @@ export default defineConfig({
     presetIcons({
       collections: {
         sponsors: FileSystemIconLoader('./assets/icons'),
+      },
+    }),
+    presetWebFonts({
+      provider: 'bunny',
+      fonts: {
+        serif: 'Megrim',
       },
     }),
   ],
