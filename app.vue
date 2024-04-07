@@ -117,7 +117,7 @@ useServerSeoMeta({
 
         <NuxtLink
           external
-          to="https://wa.me/524443159190?text=Hola,%20quiero%20quiero%20inscribirme%20a%20la%20carrera.%20Gracias!"
+          to="https://wa.me/524881128398?text=Hola,%20quiero%20quiero%20inscribirme%20a%20la%20carrera.%20Gracias!"
           class="block mx-auto rounded-lg px-4 py-2 font-stretch-extra-condensed text-xl w-fit border border-lime text-lime hover:bg-lime-900"
         >
           Inscribete
