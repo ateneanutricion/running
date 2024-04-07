@@ -17,31 +17,36 @@ useServerSeoMeta({
 <template>
   <div class="bg-zinc-900 select-none">
     <!-- <OgImage /> -->
-    <header class="flex justify-center pt-10">
-      <div class="relative h-24 w-24 md:h-30 md:w-30 lg:h-32 lg:w-32">
-        <Logo class="blur-xl md:blur-md text-lime" />
-        <Logo class="absolute inset-0" />
-      </div>
-    </header>
+    <main class="pt-10 pb-16 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
+      <header class="relative z-0">
+        <div class="z-1 relative flex flex-col gap-4 items-center">
+          <div class="relative h-24 w-24 md:h-30 md:w-30 lg:h-32 lg:w-32">
+            <Logo class="blur-xl md:blur-md text-lime" />
+            <Logo class="absolute inset-0" />
+          </div>
 
-    <main class="pt-4 pb-16 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
-      <section class="flex flex-col items-center">
-        <h1 class="font-stretch-extra-condensed text-center">
-          <span class="font-serif text-2xl md:text-3xl">
-            CARRERA
-            ATLÉTICA
-          </span>
-          <br>
-          <span class="text-6xl md:text-7xl lg:text-8xl font-black">
-            ATENEA
-            <span class="text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">5K</span>
-          </span>
-        </h1>
+          <h1 class="font-stretch-extra-condensed text-center">
+            <span class="font-serif text-2xl md:text-3xl">
+              CARRERA
+              ATLÉTICA
+            </span>
+            <br>
+            <span class="text-6xl md:text-7xl lg:text-8xl font-black">
+              ATENEA
+              <span class="text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">5K</span>
+            </span>
+          </h1>
 
-        <p class="text-xs md:text-base font-stretch-extra-expanded font-extralight">
-          Fortaleza es movimiento.
-        </p>
-      </section>
+          <p class="text-xs md:text-base font-stretch-extra-expanded font-extralight">
+            Fortaleza es movimiento.
+          </p>
+        </div>
+
+        <div class="z-0 absolute inset-0 flex justify-between w-full max-w-[80ch] mx-auto opacity-20">
+          <Columns class="h-full" />
+          <Columns class="h-full" />
+        </div>
+      </header>
 
       <section class="flex flex-col md:flex-row items-center justify-center gap-8">
         <div class="rounded-lg overflow-hidden h-60 w-full relative">
