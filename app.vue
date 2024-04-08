@@ -16,47 +16,42 @@ useServerSeoMeta({
 
 <template>
   <div class="bg-zinc-900 select-none">
-    <header class="h-16">
-      <nav class="w-full h-full relative">
-        <ul class="h-full flex px-8 justify-between items-center font-extralight font-stretch-semi-expanded">
-          <li>
-            <!-- <UnoIcon class="i-heroicons:queue-list-16-solid" /> -->
-          </li>
-
-        <!-- <li>MENÚ</li> -->
-        </ul>
-
-        <div class="flex justify-center">
-          <div class="relative h-24 w-24 -mt-10">
+    <!-- <OgImage /> -->
+    <main class="pt-10 pb-16 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
+      <header class="relative z-0">
+        <div class="z-1 relative flex flex-col gap-4 items-center">
+          <div class="relative h-24 w-24 md:h-30 md:w-30 lg:h-32 lg:w-32">
             <Logo class="blur-xl md:blur-md text-lime" />
             <Logo class="absolute inset-0" />
           </div>
+
+          <h1 class="font-stretch-extra-condensed text-center">
+            <span class="font-serif text-2xl md:text-3xl">
+              CARRERA
+              ATLÉTICA
+            </span>
+            <br>
+            <span class="text-6xl md:text-7xl lg:text-8xl font-black">
+              ATENEA
+              <span class="text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">5K</span>
+            </span>
+          </h1>
+
+          <p class="text-xs md:text-base font-stretch-extra-expanded font-extralight">
+            Fortaleza es movimiento.
+          </p>
         </div>
-      </nav>
-    </header>
-    <!-- <OgImage /> -->
 
-    <main class="py-18 px-4 space-y-8 w-full max-w-[80ch] mx-auto">
-      <section class="flex flex-col items-center">
-        <h1 class="text-2xl font-semibold font-stretch-extra-condensed text-center">
-          CARRERA
-          ATLÉTICA
-          <br>
-          <span class="text-6xl font-black">
-            ATENEA
-            <span class="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">5K</span>
-          </span>
-        </h1>
-
-        <p class="text-xs font-stretch-extra-expanded font-extralight">
-          Fortaleza es movimiento.
-        </p>
-      </section>
+        <div class="z-0 absolute inset-0 flex justify-between w-full max-w-[80ch] mx-auto opacity-20">
+          <Columns class="h-full" />
+          <Columns class="h-full" />
+        </div>
+      </header>
 
       <section class="flex flex-col md:flex-row items-center justify-center gap-8">
         <div class="rounded-lg overflow-hidden h-60 w-full relative">
           <img
-            src="/athlete-prepared-run-athletics-track.jpg"
+            src="/header_card.webp"
             class="object-cover h-full w-full"
           >
           <div class="absolute inset-0 p-2 flex flex-col">
@@ -114,11 +109,19 @@ useServerSeoMeta({
 
       <section class="space-y-6">
         <h2 class="flex flex-col items-center justify-center text-xl">
-          <span class="font-stretch-semi-expanded font-extralight">¿Estás listo?</span>
+          <span class="font-serif">¿Estás listo?</span>
           <span class="font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-lime via-lime to-transparent">
             ¡CORRE!
           </span>
         </h2>
+
+        <NuxtLink
+          external
+          to="https://wa.me/524881128398?text=Hola,%20quiero%20quiero%20inscribirme%20a%20la%20carrera.%20Gracias!"
+          class="block mx-auto rounded-lg px-4 py-2 font-stretch-extra-condensed text-xl w-fit border border-lime text-lime hover:bg-lime-900"
+        >
+          Inscribete
+        </NuxtLink>
 
         <CalendarDate />
       </section>
@@ -201,7 +204,7 @@ useServerSeoMeta({
             PATROCINADORES
           </h3>
           <p class="font-extralight">
-            La carrea puede llevarse a cabo gracias a la colaboración de...
+            <span class="font-bold">ATENEA 5K</span> puede llevarse a cabo gracias a la colaboración de...
           </p>
         </div>
 
@@ -213,7 +216,7 @@ useServerSeoMeta({
             title="Natura Altiplano"
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
-            <UnoIcon class="i-sponsors:natura h-20 w-20 md:h-30 md:w-30" />
+            <UnoIcon class="i-sponsors:natura h-20 w-20 md:h-22 md:w-22 lg:h-30 lg:w-30" />
           </NuxtLink>
 
           <NuxtLink
@@ -223,7 +226,7 @@ useServerSeoMeta({
             title="La Envidia Store"
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
-            <UnoIcon class="i-sponsors:envidia-store h-20 w-20 md:h-30 md:w-30" />
+            <UnoIcon class="i-sponsors:envidia-store h-20 w-20 md:h-22 md:w-22 lg:h-30 lg:w-30" />
           </NuxtLink>
 
           <NuxtLink
@@ -235,7 +238,7 @@ useServerSeoMeta({
             <img
               src="/sponsors/totopos-chilaquil-tostadas-de-la-cruz.webp"
               alt="TOTOPOS CHILAQUIL Y TOSTADAS DE LA CRUZ"
-              class="w-20 md:w-30"
+              class="w-20 md:w-22 lg:w-30"
             >
           </NuxtLink>
 
