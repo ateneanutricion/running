@@ -210,6 +210,7 @@ useServerSeoMeta({
             external
             target="_blank"
             href=""
+            title="Natura Altiplano"
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
             <UnoIcon class="i-sponsors:natura h-20 w-20 md:h-30 md:w-30" />
@@ -219,6 +220,7 @@ useServerSeoMeta({
             external
             target="_blank"
             href="https://www.facebook.com/LaEnvidiaSTORE/"
+            title="La Envidia Store"
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
             <UnoIcon class="i-sponsors:envidia-store h-20 w-20 md:h-30 md:w-30" />
@@ -227,11 +229,25 @@ useServerSeoMeta({
           <NuxtLink
             external
             href="tel:+524888822068"
+            title="TOTOPOS CHILAQUIL Y TOSTADAS DE LA CRUZ"
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
             <img
               src="/sponsors/totopos-chilaquil-tostadas-de-la-cruz.webp"
               alt="TOTOPOS CHILAQUIL Y TOSTADAS DE LA CRUZ"
+              class="w-20 md:w-30"
+            >
+          </NuxtLink>
+
+          <NuxtLink
+            external
+            href="https://www.youtube.com/channel/UCRJlIgDC2TV9IfncsFh8u2w"
+            title="Nación Fútbol"
+            class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
+          >
+            <img
+              src="/sponsors/NFC.webp"
+              alt="Nación Fútbol"
               class="w-20 md:w-30"
             >
           </NuxtLink>
