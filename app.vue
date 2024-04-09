@@ -212,7 +212,7 @@ useServerSeoMeta({
           <NuxtLink
             external
             target="_blank"
-            to="https://wa.me/524881177749?text=Hola,%20me%20interesa%20comprar%20productos%20Natura.%20Gracias!"
+            to="https://wa.me/524881463761?text=Hola,%20me%20interesa%20comprar%20productos%20Natura.%20Gracias!"
             title="Natura Altiplano"
             class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
           >
