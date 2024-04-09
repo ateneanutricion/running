@@ -238,7 +238,7 @@ useServerSeoMeta({
             <img
               src="/sponsors/totopos-chilaquil-tostadas-de-la-cruz.webp"
               alt="TOTOPOS CHILAQUIL Y TOSTADAS DE LA CRUZ"
-              class="w-20 md:w-22 lg:w-30"
+              class="h-20 md:h-22 lg:h-30 w-auto"
             >
           </NuxtLink>
 
@@ -252,7 +252,7 @@ useServerSeoMeta({
             <img
               src="/sponsors/NFC.webp"
               alt="Nación Fútbol"
-              class="w-20 md:w-30"
+              class="h-20 md:h-22 lg:h-30 w-auto"
             >
           </NuxtLink>
         </div>
