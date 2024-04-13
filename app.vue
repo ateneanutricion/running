@@ -256,6 +256,18 @@ useServerSeoMeta({
             >
           </NuxtLink>
         </div>
+
+        <div class="flex items-center justify-center gap-2">
+          <span class="text-xs text-neutral-500">Web patrocinada por</span>
+          <NuxtLink
+            external
+            target="_blank"
+            to="https://wa.me/524881128398?text=Hola,%20me%20interesa%20desarrollar%20un%20sitio%20web.%20Gracias!"
+            title="attq developing solutions"
+          >
+            <UnoIcon class="i-sponsors:attq h-8 w-18 text-white" />
+          </NuxtLink>
+        </div>
       </section>
     </main>
   </div>
