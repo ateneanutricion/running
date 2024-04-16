@@ -266,7 +266,7 @@ useServerSeoMeta({
 	          <img
 	            src="/sponsors/bunker-gym.webp"
 	            alt="Bunker Gym"
-	            class="h-20 md:h-22 lg:h-30 w-auto"
+	            class="h-20 w-20 md:h-22 md:w-22 lg:h-30 lg:w-30"
 	          >
 	        </NuxtLink>
         </div>
