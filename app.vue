@@ -255,6 +255,22 @@ useServerSeoMeta({
               class="h-20 md:h-22 lg:h-30 w-auto"
             >
           </NuxtLink>
+
+				</NuxtLink>
+
+        <NuxtLink
+            external
+            target="_blank"
+            to="https://www.instagram.com/bunker_fitness_gym"
+            title="Bunker Gym"
+            class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
+          >
+            <img
+              src="/sponsors/bunker-gym.webp"
+              alt="Bunker Gym"
+              class="h-20 md:h-22 lg:h-30 w-auto"
+            >
+          </NuxtLink>
         </div>
 
         <div class="flex items-center justify-center gap-2">
