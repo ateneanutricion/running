@@ -238,7 +238,7 @@ useServerSeoMeta({
             <img
               src="/sponsors/totopos-chilaquil-tostadas-de-la-cruz.webp"
               alt="TOTOPOS CHILAQUIL Y TOSTADAS DE LA CRUZ"
-              class="h-20 md:h-22 lg:h-30 w-auto"
+              class="h-20 md:h-22 lg:h-30 w-auto object-contain"
             >
           </NuxtLink>
 
@@ -252,23 +252,23 @@ useServerSeoMeta({
             <img
               src="/sponsors/NFC.webp"
               alt="Nación Fútbol"
-              class="h-20 md:h-22 lg:h-30 w-auto"
+              class="h-20 md:h-22 lg:h-30 w-auto object-contain"
             >
           </NuxtLink>
 
-	        <NuxtLink
-	          external
-	          target="_blank"
-	          to="https://www.instagram.com/bunker_fitness_gym"
-	          title="Bunker Gym"
-	          class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
-	        >
-	          <img
-	            src="/sponsors/bunker-gym.webp"
-	            alt="Bunker Gym"
-	            class="h-20 w-20 md:h-22 md:w-22 lg:h-30 lg:w-30"
-	          >
-	        </NuxtLink>
+          <NuxtLink
+            external
+            target="_blank"
+            to="https://www.instagram.com/bunker_fitness_gym"
+            title="Bunker Gym"
+            class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:py-8"
+          >
+            <img
+              src="/sponsors/bunker-gym.webp"
+              alt="Bunker Gym"
+              class="h-20 md:h-22 lg:h-30 w-auto object-contain"
+            >
+          </NuxtLink>
         </div>
 
         <div class="flex items-center justify-center gap-2">
