@@ -70,6 +70,20 @@
           class="h-20 md:h-22 lg:h-30 w-auto object-contain"
         >
       </NuxtLink>
+
+      <NuxtLink
+        external
+        target="_blank"
+        to="https://www.facebook.com/Torres23.Ferreteria"
+        title="Ferreteria Torres"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:py-8"
+      >
+        <img
+          src="/sponsors/ferreteria-torres.webp"
+          alt="Ferreteria Torres"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain"
+        >
+      </NuxtLink>
     </div>
 
     <div class="flex items-center justify-center gap-2">
