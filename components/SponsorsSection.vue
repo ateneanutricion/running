@@ -87,7 +87,7 @@
     </div>
 
     <div class="flex items-center justify-center gap-2">
-      <span class="text-xs text-neutral-500">Web patrocinada por</span>
+      <span class="text-xs text-neutral-500">Web desarrollada por</span>
       <NuxtLink
         external
         target="_blank"
