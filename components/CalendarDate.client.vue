@@ -15,23 +15,23 @@ const seconds = computed(() => Math.floor((timeleft.value % MINUTE) / SECOND).to
 
 <template>
   <div class="grid cols-3 rows-2 gap-2 items-center justify-center text-center">
-    <div class="col-span-3 flex flex-col items-center font-stretch-semi-expanded">
-      <span class="tabular-nums text-8xl md:text-[12rem] font-bold font-serif">{{ days }}</span>
+    <div class="col-span-3 flex flex-col items-center">
+      <span class="tabular-nums text-8xl md:text-[12rem] font-black font-mono">{{ days }}</span>
       <span class="text-xs md:text-lg font-extralight">DÍAS</span>
     </div>
 
-    <div class="w-full flex flex-col items-center font-stretch-semi-expanded">
-      <span class="tabular-nums text-5xl md:text-6xl font-bold font-serif">{{ hours }}</span>
+    <div class="w-full flex flex-col items-center">
+      <span class="tabular-nums text-5xl md:text-6xl font-black font-mono">{{ hours }}</span>
       <span class="text-xs md:text-base font-extralight">HORAS</span>
     </div>
 
-    <div class="w-full flex flex-col items-center font-stretch-semi-expanded">
-      <span class="tabular-nums text-5xl md:text-6xl font-bold font-serif">{{ minutes }}</span>
+    <div class="w-full flex flex-col items-center">
+      <span class="tabular-nums text-5xl md:text-6xl font-black font-mono">{{ minutes }}</span>
       <span class="text-xs md:text-base font-extralight">MINUTOS</span>
     </div>
 
-    <div class="w-full flex flex-col items-center font-stretch-semi-expanded">
-      <span class="tabular-nums text-5xl md:text-6xl font-bold font-serif">{{ seconds }}</span>
+    <div class="w-full flex flex-col items-center">
+      <span class="tabular-nums text-5xl md:text-6xl font-black font-mono">{{ seconds }}</span>
       <span class="text-xs md:text-base font-extralight">SEGUNDOS</span>
     </div>
   </div>

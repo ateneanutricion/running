@@ -1,11 +1,11 @@
 <template>
-  <section class="space-y-4">
-    <div class="text-center font-stretch-semi-expanded ">
-      <h3 class="text-2xl font-bold">
+  <section>
+    <div class="font-mono space-y-2">
+      <h3 class="text-xl font-black">
         PATROCINADORES
       </h3>
-      <p class="font-extralight">
-        <span class="font-bold">ATENEA 5K</span> puede llevarse a cabo gracias a la colaboración de...
+      <p class="text-sm text-neutral-400">
+        <span class="font-black text-white">ATENEA 5K</span> puede llevarse a cabo gracias a la colaboración de...
       </p>
     </div>
 
@@ -62,7 +62,7 @@
         target="_blank"
         to="https://www.instagram.com/bunker_fitness_gym"
         title="Bunker Gym"
-        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:py-8"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:px-8 md:py-8"
       >
         <img
           src="/sponsors/bunker-gym.webp"
