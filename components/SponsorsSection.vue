@@ -1,6 +1,13 @@
 <template>
   <section>
-    <div class="font-mono space-y-2">
+    <div class="flex items-center justify-center">
+      <div class="relative size-60">
+        <Logo class="transform translate-y-1 translate-x-0.6 opacity-30" />
+        <Logo class="absolute inset-0" />
+      </div>
+    </div>
+
+    <div class="font-mono space-y-2 w-full">
       <h3 class="text-xl font-black">
         PATROCINADORES
       </h3>
