@@ -162,12 +162,12 @@ useServerSeoMeta({
             <p>
               <span class="font-bold">Cuota promoción:</span>
               $ 100,00 (cien pesos 00/100 M.N)
-              Vigencia al 30 de abril de 2024 a las 23:59:59 horas
+              Vigencia al 25 de Mayo de 2024 a las 23:59:59 horas
             </p>
             <p>
               <span class="font-bold">Cuota Normal 1:</span>
               $ 150.00 (ciento cincuenta pesos 00/100 M.M)
-              Vigencia del 31 de abril al 27 de junio de 2024 a las 20:00 horas
+              Vigencia del 26 de Mayo al 27 de Junio de 2024 a las 20:00 horas
             </p>
           </div>
         </div>
