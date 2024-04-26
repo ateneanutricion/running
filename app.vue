@@ -8,9 +8,9 @@ useServerSeoMeta({
   // description: 'Atenea Nutrición brinda servicios de bienestar y salud, somos expertos en nutrición deportiva & clínica, creamos planes de alimentación individualizados, entrenamientos personalizados & test epigenéticos para una nutrición óptima. Nos encontramos en San Luis Potosí SLP. y Matehuala S.L.P',
   // ogDescription: 'Atenea Nutrición brinda servicios de bienestar y salud, somos expertos en nutrición deportiva & clínica, creamos planes de alimentación individualizados, entrenamientos personalizados & test epigenéticos para una nutrición óptima. Nos encontramos en San Luis Potosí SLP. y Matehuala S.L.P',
 
-  ogImage: 'https://5k.ateneanutricion.com/og-images/index.png',
+  ogImage: 'https://5k.ateneanutricion.com/og-images/index-26-04-24.webp',
   twitterCard: 'summary_large_image',
-  twitterImage: 'https://5k.ateneanutricion.com/og-images/index.png',
+  twitterImage: 'https://5k.ateneanutricion.com/og-images/index-26-04-24.webp',
 })
 </script>
 
