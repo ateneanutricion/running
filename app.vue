@@ -129,7 +129,7 @@ useServerSeoMeta({
             </p>
 
             <p>
-              <span class="font-bold">Disparo de salida:</span> 19:00 horas.
+              <span class="font-bold">Disparo de salida:</span> 18:30 horas.
             </p>
 
             <p>
