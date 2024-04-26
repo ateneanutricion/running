@@ -16,7 +16,7 @@ const seconds = computed(() => Math.floor((timeleft.value % MINUTE) / SECOND).to
 <template>
   <div class="grid cols-3 rows-2 gap-2 items-center justify-center text-center">
     <div class="col-span-3 flex flex-col items-center">
-      <span class="tabular-nums text-8xl md:text-[12rem] font-black font-mono">{{ days }}</span>
+      <span class="tabular-nums text-8xl md:text-[12rem] font-black font-mono text-lime">{{ days }}</span>
       <span class="text-xs md:text-lg font-extralight">DÍAS</span>
     </div>
 
