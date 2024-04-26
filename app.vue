@@ -113,7 +113,7 @@ useServerSeoMeta({
       </section>
       <Divider />
 
-      <section class="py-12 px-4 overflow-clip flex flex-col items-center gap-9">
+      <section class="pt-12 pb-6 px-4 overflow-clip flex flex-col items-center gap-9">
         <div class="font-mono w-full flex items-end gap-4">
           <h3 class="text-xl font-black write-vertical-left rotate-180 flex flex-col text-lime">
             CONVOCATORIA
@@ -186,13 +186,6 @@ useServerSeoMeta({
 
       <SponsorsSection class="py-6 px-4 flex flex-col items-center gap-4" />
     </main>
-
-    <!-- <div class="absolute inset-0 flex items-center justify-center">
-          <div class="relative size-60 md:h-30 md:w-30 lg:h-32 lg:w-32">
-            <Logo class="blur-xl md:blur-md text-lime" />
-            <Logo class="absolute inset-0" />
-          </div>
-        </div> -->
   </div>
 </template>
 
