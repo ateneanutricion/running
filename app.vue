@@ -133,10 +133,20 @@ useServerSeoMeta({
             </p>
 
             <p>
-              <span class="font-bold">Distancias:</span> 3K Familiar, 5K Carrera.
+              <span class="font-bold">Distancias:</span> 3K y 5K.
             </p>
             <p>
-              <span class="font-bold">Premiación:</span> 3 primeros lugares ambas ramas (varonil y femenil) de la distancia 5K. 3K recreativa por lo cual no se premia. Medalla conmemorativa a los primeros 150 lugares en llegar a la meta.
+              <span class="font-bold">Categorias 5K:</span>
+            </p>
+            <p>&lt; 19 años</p>
+            <p>19-35 años</p>
+            <p>&gt; 35 años</p>
+
+            <p>
+              <span class="font-bold">Premiación:</span>
+              3 primeros lugares ambas ramas (Femenil y Varonil) en las categorias de 5km. 3k
+              recreativa por lo cual no se premia.
+              Medalla conmemorativa a los primero 150 lugares en llegar a la meta.
             </p>
           </div>
         </div>
