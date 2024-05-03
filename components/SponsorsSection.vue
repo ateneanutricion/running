@@ -1,11 +1,18 @@
 <template>
-  <section class="space-y-4">
-    <div class="text-center font-stretch-semi-expanded ">
-      <h3 class="text-2xl font-bold">
+  <section>
+    <div class="flex items-center justify-center">
+      <div class="relative size-60">
+        <Logo class="transform translate-y-1 translate-x-0.6 opacity-30" />
+        <Logo class="absolute inset-0" />
+      </div>
+    </div>
+
+    <div class="font-mono space-y-2 w-full">
+      <h3 class="text-xl font-black">
         PATROCINADORES
       </h3>
-      <p class="font-extralight">
-        <span class="font-bold">ATENEA 5K</span> puede llevarse a cabo gracias a la colaboración de...
+      <p class="text-sm text-neutral-400">
+        <span class="font-black text-white">ATENEA 5K</span> puede llevarse a cabo gracias a la colaboración de...
       </p>
     </div>
 
@@ -62,7 +69,7 @@
         target="_blank"
         to="https://www.instagram.com/bunker_fitness_gym"
         title="Bunker Gym"
-        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:py-8"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:px-8 md:py-8"
       >
         <img
           src="/sponsors/bunker-gym.webp"
@@ -70,10 +77,24 @@
           class="h-20 md:h-22 lg:h-30 w-auto object-contain"
         >
       </NuxtLink>
+
+      <NuxtLink
+        external
+        target="_blank"
+        to="https://www.facebook.com/Torres23.Ferreteria"
+        title="Ferreteria Torres"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:py-8"
+      >
+        <img
+          src="/sponsors/ferreteria-torres.webp"
+          alt="Ferreteria Torres"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain"
+        >
+      </NuxtLink>
     </div>
 
     <div class="flex items-center justify-center gap-2">
-      <span class="text-xs text-neutral-500">Web patrocinada por</span>
+      <span class="text-xs text-neutral-500">Web desarrollada por</span>
       <NuxtLink
         external
         target="_blank"

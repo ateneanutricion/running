@@ -3,16 +3,10 @@ import { FileSystemIconLoader } from '@iconify/utils/lib/loader/node-loaders'
 
 export default defineConfig({
   presets: [
-    presetUno(),
+    presetUno({ attributifyPseudo: true }),
     presetIcons({
       collections: {
         sponsors: FileSystemIconLoader('./assets/icons'),
-      },
-    }),
-    presetWebFonts({
-      provider: 'bunny',
-      fonts: {
-        serif: 'Megrim',
       },
     }),
   ],
