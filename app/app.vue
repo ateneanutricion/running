@@ -44,6 +44,8 @@ useServerSeoMeta({
         <CTAButton>
           Inscribete
         </CTAButton>
+
+        <UnoIcon class="i-heroicons:arrow-down-16-solid size-6 animate-bounce mt-4" />
       </section>
 
       <section class="p-4 overflow-clip flex flex-col md:flex-row items-center justify-center gap-8">

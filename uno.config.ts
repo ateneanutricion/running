@@ -6,7 +6,7 @@ export default defineConfig({
     presetUno({ attributifyPseudo: true }),
     presetIcons({
       collections: {
-        sponsors: FileSystemIconLoader('./assets/icons'),
+        sponsors: FileSystemIconLoader('./app/assets/icons'),
       },
     }),
   ],
