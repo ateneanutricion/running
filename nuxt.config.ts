@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         'css-inline': false,
         'chromium': false,
         'resvg': false,
-        'satori': 'wasm',
+        'satori': 'wasm-fs',
         'sharp': false,
       },
       prerender: {},
