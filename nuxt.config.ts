@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   future: { compatibilityVersion: 4 },
+  sourcemap: { server: false },
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
@@ -10,6 +11,17 @@ export default defineNuxtConfig({
   site: {
     name: 'ATENEA 5K',
     url: 'https://5k.ateneanutricion.com',
+  },
+  ogImage: {
+    runtimeCacheStorage: false,
+    compatibility: {
+      runtime: {
+        'css-inline': false,
+        'chromium': false,
+        'resvg': false,
+        'sharp': false,
+      },
+    },
   },
   css: ['@unocss/reset/tailwind.css'],
   app: {
