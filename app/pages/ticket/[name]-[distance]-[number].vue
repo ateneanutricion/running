@@ -10,7 +10,7 @@ defineOgImageComponent(
     distance: route.params.distance,
   },
   {
-    // renderer: 'chromium',
+    renderer: 'chromium',
     width: 600,
     height: 1000,
     extension: 'png',

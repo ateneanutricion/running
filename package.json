@@ -9,6 +9,7 @@
     "lint:fix": "eslint --fix .",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "pregenerate": "playwright install chromium",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
