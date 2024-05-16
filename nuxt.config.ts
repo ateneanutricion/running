@@ -23,16 +23,6 @@ export default defineNuxtConfig({
       prerender: {},
     },
   },
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: [
-        '/__og-image__/image/ticket/Yetlanetzi Portillo-5-130/og.png',
-        '/__og-image__/image/ticket/Amaury Tobias-5-131/og.png',
-        '/__og-image__/image/ticket/Ehitel Torres-5-521/og.png',
-      ],
-    },
-  },
   css: ['@unocss/reset/tailwind.css'],
   app: {
     head: {
