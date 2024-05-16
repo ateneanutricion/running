@@ -7,19 +7,23 @@ defineProps<{
 </script>
 
 <template>
-  <div class="bg-zinc-900 h-full w-full overflow-hidden uppercase text-white">
-    <div
-      class="relative bg-center bg-cover h-80"
-      style="background-image: url(/header_card.webp)"
-    >
-      <div class="layer" />
-      <div class="absolute size-full px-14 grid place-items-center z-1">
-        <AteneaTitle class="w-full h-full !flex-row" />
+  <div class="flex flex-col bg-zinc-900 h-full w-full overflow-hidden uppercase text-white">
+    <div class="relative h-70 w-full">
+      <img
+        class="w-full h-70 object-cover"
+        src="/og-assets/header_card.jpg"
+      >
+      <div class="absolute inset-0 size-full bg-black/40" />
+      <div class="absolute size-full flex items-center justify-center">
+        <img
+          class="w-10/12 h-15"
+          src="/og-assets/header_title.png"
+        >
       </div>
     </div>
 
-    <div class="ticket-body space-y-10 p-14 relative border-b border-b-dashed">
-      <div class="runner">
+    <div class="flex gap-1 p-10 relative border-white border-b border-dashed">
+      <div>
         <span class="text-base text-zinc-500">
           corredor
         </span>
@@ -55,13 +59,13 @@ defineProps<{
       </p>
 
       <img
-        src="/qr.webp"
-        class="h-56 mx-auto"
+        src="/og-assets/qr.jpg"
+        class="size-56 mx-auto"
       >
     </div>
 
-    <div class="px-14 pt-4">
-      <div class="disclaimer text-zinc-500 font-italic text-xl">
+    <div class="flex h-20 px-10 justify-center">
+      <div class="normal-case text-zinc-300 font-light text-xl">
         Sueña sin miedo, entrena sin limites
       </div>
     </div>
@@ -87,21 +91,5 @@ defineProps<{
 .ticket-body:after {
   right: 0;
   transform: translate(70%, -45%);
-}
-
-.disclaimer {
-  font-family: "IM Fell French Canon";
-  text-transform: none;
-}
-.layer {
-  transition: all 0.2s ease;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 4px 4px 0 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
 }
 </style>
