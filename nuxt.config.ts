@@ -11,6 +11,17 @@ export default defineNuxtConfig({
     name: 'ATENEA 5K',
     url: 'https://5k.ateneanutricion.com',
   },
+  ogImage: {
+    compatibility: {
+      runtime: {
+        'css-inline': false,
+        'chromium': false,
+        'resvg': 'wasm',
+        'satori': 'wasm',
+        'sharp': false,
+      },
+    },
+  },
   css: ['@unocss/reset/tailwind.css'],
   app: {
     head: {
