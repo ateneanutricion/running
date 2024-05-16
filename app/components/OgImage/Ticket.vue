@@ -71,25 +71,3 @@ defineProps<{
     </div>
   </div>
 </template>
-
-<style scoped>
-.ticket-body {}
-.ticket-body:before,
-.ticket-body:after {
-  background-color: white;
-  border-radius: 100%;
-  content: "";
-  height: 30px;
-  position: absolute;
-  top: 100%;
-  width: 40px;
-}
-.ticket-body:before {
-  left: 0;
-  transform: translate(-70%, -45%);
-}
-.ticket-body:after {
-  right: 0;
-  transform: translate(70%, -45%);
-}
-</style>
