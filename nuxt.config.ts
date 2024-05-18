@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  future: { compatibilityVersion: 4 },
+  // TODO: Nuxt 3.12 and 4 future: { compatibilityVersion: 4 },
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
