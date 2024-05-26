@@ -91,6 +91,34 @@
           class="h-20 md:h-22 lg:h-30 w-auto object-contain"
         >
       </NuxtLink>
+
+      <NuxtLink
+        external
+        target="_blank"
+        to="https://www.facebook.com/p/Guerreros-Matehuala-100057220008333"
+        title="Guerreros Matehuala"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:py-8"
+      >
+        <img
+          src="/sponsors/guerreros-matehuala.webp"
+          alt="Ferreteria Torres"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain"
+        >
+      </NuxtLink>
+
+      <NuxtLink
+        external
+        target="_blank"
+        to="https://www.facebook.com/p/Papelería-Tristán-100031013606906"
+        title="Papelería Tristán"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:py-8"
+      >
+        <img
+          src="/sponsors/papeleria-tristan.webp"
+          alt="Ferreteria Torres"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain"
+        >
+      </NuxtLink>
     </div>
 
     <div class="flex items-center justify-center gap-2">
