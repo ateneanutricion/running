@@ -15,7 +15,7 @@ useServerSeoMeta({
 </script>
 
 <template>
-  <div class="bg-zinc-900 select-none">
+  <div class="bg-zinc-900">
     <header class="bg-zinc-900 fixed z-2 w-full top-0 h-12 px-4 py-2 flex items-center justify-between">
       <span class="font-black flex gap-1 items-center">
         ATENEA 5K
@@ -25,6 +25,7 @@ useServerSeoMeta({
       <CTAButton
         group
         class="flex items-center gap-2 px-2! py-1!"
+        :to-section="true"
       >
         Inscribete
         <UnoIcon class="i-heroicons:arrow-right-16-solid group-hover:animate-head-shake" />
@@ -41,7 +42,7 @@ useServerSeoMeta({
           MATEHUHALA, SLP
         </span>
 
-        <CTAButton>
+        <CTAButton to-section>
           Inscribete
         </CTAButton>
 
@@ -193,7 +194,60 @@ useServerSeoMeta({
             </p>
           </div>
         </div>
-        <Divider />
+      </section>
+
+      <section
+        id="inscribete"
+        class="py-10 px-4 flex flex-col items-center gap-4"
+      >
+        <header class="font-mono space-y-2 w-full">
+          <h3 class="text-xl font-black">
+            INSCRIBETE
+          </h3>
+          <p class="text-sm text-neutral-400">
+            Puedes inscribirte de manera prencencial en:
+          </p>
+        </header>
+
+        <div class="flex flex-col items-start w-full gap-4 text-sm font-mono text-neutral-300">
+          <ul class="w-full">
+            <li class="flex justify-between items-center pr-4">
+              <ul class="list-circle-inside">
+                <li>La Envidia Store</li>
+                <li>Hidalgo #508 (entre Colón y Reyes)</li>
+                <li>Horario de L-V de 10:30 a 19:00</li>
+              </ul>
+              <UnoIcon class="i-sponsors:envidia-store size-16 shrink-0" />
+            </li>
+
+            <Divider class="my-4" />
+
+            <li class="flex justify-between items-center pr-4">
+              <ul class="list-circle-inside">
+                <li>Ferreteria Torres</li>
+                <li>Chiapas #1504-A (a un costado de la primaria)</li>
+                <li>Horario de L-V de 09:00 a 18:00</li>
+              </ul>
+              <img
+                src="/sponsors/ferreteria-torres.webp"
+                alt="Ferreteria Torres"
+                class="h-15 w-auto shrink-0"
+              >
+            </li>
+          </ul>
+        </div>
+
+        <p class="text-sm text-neutral-400">
+          O inscribete ahora mediante transferencia por WhatsApp...
+        </p>
+
+        <CTAButton
+          group
+          class="flex items-center gap-2 px-2! py-1!"
+        >
+          Inscribete
+          <UnoIcon class="i-heroicons:arrow-right-16-solid group-hover:animate-head-shake" />
+        </CTAButton>
       </section>
 
       <SponsorsSection class="py-6 px-4 flex flex-col items-center gap-4" />
