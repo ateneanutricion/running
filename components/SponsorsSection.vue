@@ -24,7 +24,7 @@
         title="Natura Altiplano"
         class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
       >
-        <UnoIcon class="i-sponsors:natura h-20 w-20 md:h-22 md:w-22 lg:h-30 lg:w-30" />
+        <UnoIcon class="i-sponsors:natura size-20 md:size-22 lg:size-30" />
       </NuxtLink>
 
       <NuxtLink
@@ -34,7 +34,7 @@
         title="La Envidia Store"
         class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
       >
-        <UnoIcon class="i-sponsors:envidia-store h-20 w-20 md:h-22 md:w-22 lg:h-30 lg:w-30" />
+        <UnoIcon class="i-sponsors:envidia-store size-20 md:size-22 lg:size-30" />
       </NuxtLink>
 
       <NuxtLink
@@ -101,7 +101,7 @@
       >
         <img
           src="/sponsors/guerreros-matehuala.webp"
-          alt="Ferreteria Torres"
+          alt="Guerreros Matehuala"
           class="h-20 md:h-22 lg:h-30 w-auto object-contain"
         >
       </NuxtLink>
@@ -115,7 +115,20 @@
       >
         <img
           src="/sponsors/papeleria-tristan.webp"
-          alt="Ferreteria Torres"
+          alt="Papelería Tristán"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain"
+        >
+      </NuxtLink>
+
+      <NuxtLink
+        external
+        to="tel:+524888881510"
+        title="Rosticeria Don Pollo"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
+      >
+        <img
+          src="/sponsors/don-pollo.webp"
+          alt="Rosticeria Don Pollo"
           class="h-20 md:h-22 lg:h-30 w-auto object-contain"
         >
       </NuxtLink>
