@@ -132,6 +132,34 @@
           class="h-20 md:h-22 lg:h-30 w-auto object-contain"
         >
       </NuxtLink>
+
+      <NuxtLink
+        external
+        target="_blank"
+        to="https://www.facebook.com/PinturasYFerreteriaZaragoza/"
+        title="Pinturas Zaragoza"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:px-8 md:py-8"
+      >
+        <img
+          src="/sponsors/pinturas-zaragoza.webp"
+          alt="Pinturas Zaragoza"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain"
+        >
+      </NuxtLink>
+
+      <NuxtLink
+        external
+        target="_blank"
+        to="https://www.instagram.com/the.fitzonee/"
+        title="The Fit Zone"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
+      >
+        <img
+          src="/sponsors/the-fit-zone.webp"
+          alt="The Fit Zone"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain"
+        >
+      </NuxtLink>
     </div>
 
     <div class="flex items-center justify-center gap-2">
