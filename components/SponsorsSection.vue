@@ -160,6 +160,34 @@
           class="h-20 md:h-22 lg:h-30 w-auto object-contain"
         >
       </NuxtLink>
+
+      <NuxtLink
+        external
+        target="_blank"
+        to="https://www.facebook.com/profile.php?id=100073767083321"
+        title="Luck creative designs"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center py-4 md:py-8"
+      >
+        <img
+          src="/sponsors/luck-creative.webp"
+          alt="Luck creative designs"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain rounded-full"
+        >
+      </NuxtLink>
+
+      <NuxtLink
+        external
+        target="_blank"
+        to="https://www.instagram.com/birdbox.cf"
+        title="Birdbox wellness center"
+        class="bg-zinc-800 rounded-lg flex items-center justify-center p-4 md:px-8 md:py-8"
+      >
+        <img
+          src="/sponsors/birdbox.webp"
+          alt="Birdbox wellness center"
+          class="h-20 md:h-22 lg:h-30 w-auto object-contain drop-shadow drop-shadow-color-zinc"
+        >
+      </NuxtLink>
     </div>
 
     <div class="flex items-center justify-center gap-2">
