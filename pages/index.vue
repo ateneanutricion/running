@@ -25,7 +25,7 @@ useServerSeoMeta({
       <CTAButton
         group
         class="flex items-center gap-2 px-2! py-1!"
-        :to-section="true"
+        to="#inscribete"
       >
         Inscribete
         <UnoIcon class="i-heroicons:arrow-right-16-solid group-hover:animate-head-shake" />
@@ -42,7 +42,7 @@ useServerSeoMeta({
           MATEHUHALA, SLP
         </span>
 
-        <CTAButton to-section>
+        <CTAButton to="#inscribete">
           Inscribete
         </CTAButton>
 
@@ -112,7 +112,13 @@ useServerSeoMeta({
       <section class="py-6 px-4 relative flex flex-col items-center">
         <span class="text-2xl font-mono text-neutral-400">¿Estás listo?</span>
         <CalendarDate class="w-full" />
-        <CTAButton>¡CORRE!</CTAButton>
+        <CTAButton
+          external
+          target="_blank"
+          to="https://wa.me/524881128398?text=Hola,%20quiero%20quiero%20inscribirme%20a%20la%20carrera.%20Gracias!"
+        >
+          ¡CORRE!
+        </CTAButton>
       </section>
       <Divider />
 
@@ -243,7 +249,10 @@ useServerSeoMeta({
 
         <CTAButton
           group
+          external
+          target="_blank"
           class="flex items-center gap-2 px-2! py-1!"
+          to="https://wa.me/524881128398?text=Hola,%20quiero%20quiero%20inscribirme%20a%20la%20carrera.%20Gracias!"
         >
           Inscribete
           <UnoIcon class="i-heroicons:arrow-right-16-solid group-hover:animate-head-shake" />

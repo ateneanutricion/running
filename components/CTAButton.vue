@@ -1,15 +1,20 @@
 <script setup lang="ts">
 withDefaults(defineProps<{
+  to: string
+  external?: boolean
+  target?: string
   toSection?: boolean
-}>(), { toSection: false })
+}>(), {
+  toSection: false,
+})
 </script>
 
 <template>
   <NuxtLink
     group
-    :external="!toSection"
-    :target="toSection ? '_self' : '_blank'"
-    :to="toSection ? '#inscribete' : 'https://wa.me/524881128398?text=Hola,%20quiero%20quiero%20inscribirme%20a%20la%20carrera.%20Gracias!'"
+    :external="external"
+    :target="target"
+    :to="to"
     class="
     relative
     z-1
