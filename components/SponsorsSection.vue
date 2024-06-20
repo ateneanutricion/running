@@ -7,6 +7,22 @@
       </div>
     </div>
 
+    <div class="flex flex-col gap-4 justify-center items-center">
+      <p class="text-sm text-neutral-400">
+        Nutricion deportiva para corredores
+      </p>
+      <CTAButton
+        group
+        external
+        target="_blank"
+        class="flex items-center gap-2 px-2! py-1!"
+        to="https://ateneanutricion.com/nutricion"
+      >
+        Conoce ATENEA!!!
+        <UnoIcon class="i-heroicons:arrow-right-16-solid group-hover:animate-head-shake" />
+      </CTAButton>
+    </div>
+
     <div class="font-mono space-y-2 w-full">
       <h3 class="text-xl font-black">
         PATROCINADORES
