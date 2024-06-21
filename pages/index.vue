@@ -259,6 +259,46 @@ useServerSeoMeta({
         </CTAButton>
       </section>
 
+      <section
+        id="inscribete"
+        class="pt-10 pb-20 px-8 md:px-4 grid md:cols-2 items-start gap-4"
+      >
+        <div>
+          <div>
+            <img
+              src="/running_pdf.webp"
+              alt=""
+              srcset=""
+            >
+          </div>
+        </div>
+
+        <div class="font-mono space-y-2 w-full h-full flex flex-col justify-between gap-6">
+          <div>
+            <h3 class="text-xl font-black">
+              Guía Nutricional para Corredores
+            </h3>
+
+            <Divider class="my-4" />
+
+            <p class="text-sm text-neutral-300 mb-4">
+              Descarga nuestra guía de nutrición deportiva para corredores, toda la información que encontrarás está respaldada por información basada en evidencia científica.
+            </p>
+            <p class="text-sm text-neutral-300">
+              Aquí encontrarás consejos para aprender lo que necesita tu cuerpo como corredor para alimentarte antes, durante y después de tu entrenamiento y mucho más.
+            </p>
+          </div>
+
+          <CTAButton
+            to="/nutricion_deportiva_running.pdf"
+            external
+            download
+          >
+            Descargar
+          </CTAButton>
+        </div>
+      </section>
+
       <SponsorsSection class="py-6 px-4 flex flex-col items-center gap-4" />
     </main>
   </div>
