@@ -196,7 +196,7 @@ useServerSeoMeta({
               15:00 a 20:00 horas.
             </p>
             <p>
-              <span class="font-bold">Lugar:</span> Consultorios Agora. Casa Aurora, Morelos #510, col. Centro. Para recoger tu número presentarse con alguna identificación y el comprobante de pago de la inscripción.
+              <span class="font-bold">Lugar:</span> Consultorios Agora. Casa Aurora, Morelos #510, col. Centro. Para recoger tu número presentarse con alguna identificación y el comprobante de pago de la inscripción (comprobante unicamenre para inscripciónes por transferencia bancaria).
             </p>
           </div>
         </div>
